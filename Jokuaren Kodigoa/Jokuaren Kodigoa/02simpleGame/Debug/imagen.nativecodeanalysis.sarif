@@ -1,0 +1,504 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\c1.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x005AD1C0 -il C:\\Users\\asier\\AppData\\Local\\Temp\\_CL_2deef005ast -typedil -f ..\\simpleSdlWrapper\\imagen.c -Ze -D_MSC_EXTENSIONS -Zp8 -Gs -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930133 -D_MSC_BUILD=0 -D_WIN32 -D_M_IX86=600 -D_M_IX86_FP=2 -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\02simpleGame\\ -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\02simpleGame\\game02 -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\simpleSdlWrapper -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\sdl2\\include -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\sdl2image\\include -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\sdl2mixer\\include -I C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\sdl2ttf\\include -nologo -W 3 -diagnostics:column -Ot -DCODE_ANALYSIS -DWIN32 -D_DEBUG -D_CONSOLE -D_UNICODE -DUNICODE -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -D_DEBUG -D_MT -D_DLL -GS -D_M_FP_PRECISE -FoDebug\\imagen.obj -FdDebug\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\asier\\Downloads\\Editados Samples\\sdlExamplesVcWS\\02simpleGame -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\UnitTest\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/02simplegame/game02/game02.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "5d2e7e075f6bc8927e71a2b48c66aa16"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/02simplegame/game02/game02.h"
+          },
+          "hashes": {
+            "md5": "b10c0e7a6f216675dc79545e765a5867"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/02simplegame/ourtypes.h"
+          },
+          "hashes": {
+            "md5": "ee7e0e7d40318c70700513eef66007f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/ebentoak.h"
+          },
+          "hashes": {
+            "md5": "7edeb956fd26f5af806b1bc1bf0f4ad2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl.h"
+          },
+          "hashes": {
+            "md5": "e79c4e97a3b1f4e020db60e0be3aa858"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_main.h"
+          },
+          "hashes": {
+            "md5": "685041a0507cc318c7b7a308396eaba6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_stdinc.h"
+          },
+          "hashes": {
+            "md5": "d5d9b8371bba9386d35b1f77f2e40d94"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_config.h"
+          },
+          "hashes": {
+            "md5": "f088a00e75996b66694c2debb3fbec0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_platform.h"
+          },
+          "hashes": {
+            "md5": "d732966cef31565662eb5ab6a2782685"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/begin_code.h"
+          },
+          "hashes": {
+            "md5": "32198dedd3da8b885afb93a1eba104b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/close_code.h"
+          },
+          "hashes": {
+            "md5": "b6a09e1d1efc8e15f22623f6d36aafbb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_config_windows.h"
+          },
+          "hashes": {
+            "md5": "4845134baf9b08f3fb9cbb3ab1326592"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_assert.h"
+          },
+          "hashes": {
+            "md5": "f232c9306410dffb385e4da71a5de027"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_atomic.h"
+          },
+          "hashes": {
+            "md5": "7ccce439f2dad12bcf5a8a3c85fe33c0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_audio.h"
+          },
+          "hashes": {
+            "md5": "3acde1de607f90ed5eb69122047f10be"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_error.h"
+          },
+          "hashes": {
+            "md5": "944be56baebf6220323e46b4dc4846e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_endian.h"
+          },
+          "hashes": {
+            "md5": "8af70bbc1d1aa3c2b54f3f0f983d3a0c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_mutex.h"
+          },
+          "hashes": {
+            "md5": "377fb468de4af412a6be87465b6dd031"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_thread.h"
+          },
+          "hashes": {
+            "md5": "f6805e311a9cdbd8cf162405d4c0e9f4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_rwops.h"
+          },
+          "hashes": {
+            "md5": "15efbe5a568386588f01e269c62b453d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_clipboard.h"
+          },
+          "hashes": {
+            "md5": "80ffbc7ba17dd4a43813fea5e01610a3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_cpuinfo.h"
+          },
+          "hashes": {
+            "md5": "2d60cc6cee81a63e56cc1c3dc4b2652c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_events.h"
+          },
+          "hashes": {
+            "md5": "f7e40d80ba3c30e2bdd81d37a47e5fce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_video.h"
+          },
+          "hashes": {
+            "md5": "874adf1f778ba51852e51982817a13ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_pixels.h"
+          },
+          "hashes": {
+            "md5": "16f99ec42f8520eec6c615a8bd6ba0a4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_rect.h"
+          },
+          "hashes": {
+            "md5": "76ed8979dc666a627ff9368bbe08e2ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_surface.h"
+          },
+          "hashes": {
+            "md5": "444aca68bb10766f6bb52e5712c26e88"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_blendmode.h"
+          },
+          "hashes": {
+            "md5": "8d23fd93c8240562b2174c4bf3894570"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_keyboard.h"
+          },
+          "hashes": {
+            "md5": "ebaee694a93db34e371822cd64e46ea3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_keycode.h"
+          },
+          "hashes": {
+            "md5": "28bc6f38c514322967c34df7ed2a38ed"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_scancode.h"
+          },
+          "hashes": {
+            "md5": "a335b185fd7bccd8d562a6ce9c9fac12"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_mouse.h"
+          },
+          "hashes": {
+            "md5": "1804da83527e242d73692307384e8f33"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_joystick.h"
+          },
+          "hashes": {
+            "md5": "f824db77af0d623d32dab892a9c8ff65"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_gamecontroller.h"
+          },
+          "hashes": {
+            "md5": "8c60915cef228155476921b10f998699"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_quit.h"
+          },
+          "hashes": {
+            "md5": "e653c88b4302ab3ace8dc69df70b261f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_gesture.h"
+          },
+          "hashes": {
+            "md5": "c7a8e5471e02c93ff05b84c74d4776df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_touch.h"
+          },
+          "hashes": {
+            "md5": "94f9c31fd726ef5ff5b27657d3637d7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_filesystem.h"
+          },
+          "hashes": {
+            "md5": "ab1e766f6158c1aa4ddf59d86f2203fd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_haptic.h"
+          },
+          "hashes": {
+            "md5": "f2b890ae9c84c844c2d31d97b2c95d75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_hints.h"
+          },
+          "hashes": {
+            "md5": "741a8431a339649882f9d16e87dd489b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_loadso.h"
+          },
+          "hashes": {
+            "md5": "1fdbe86758625006f239c1669aad3954"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_log.h"
+          },
+          "hashes": {
+            "md5": "1cdea9737151ec51e3d17aaad9e535d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_messagebox.h"
+          },
+          "hashes": {
+            "md5": "05acf6f2bf7cfe80f057d7a38696995c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_power.h"
+          },
+          "hashes": {
+            "md5": "1cf76f02a015ab94635b056fe6e1915d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_render.h"
+          },
+          "hashes": {
+            "md5": "e307fa4a97cd8ded16383f34b4b5d398"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_system.h"
+          },
+          "hashes": {
+            "md5": "67a01e7fc0e5494d2ad0fc857443f437"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_timer.h"
+          },
+          "hashes": {
+            "md5": "cf083c19551b62c197864a56fd1b2c85"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2/include/sdl_version.h"
+          },
+          "hashes": {
+            "md5": "0b3bca8bb153872d0b30965ea5098900"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/imagen.h"
+          },
+          "hashes": {
+            "md5": "df96d462b73e536424ac25fec2525681"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/graphics.h"
+          },
+          "hashes": {
+            "md5": "0861b728304b975d66d8f1565e57289d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/text.h"
+          },
+          "hashes": {
+            "md5": "9c0d762817d63fa2a264a32c5b9426ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/soinua.h"
+          },
+          "hashes": {
+            "md5": "3df0e47dcc6aaad28fa08c47e573bc0d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2mixer/include/sdl_mixer.h"
+          },
+          "hashes": {
+            "md5": "9d609679ae3abe61d4e5205476217232"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/02simplegame/02simplegamemain.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8a5d8a9368fd98410979e26ca1fb27af"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/text.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "9f0624eea52bc73779f1b6bfdb0f8668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/sdl2ttf/include/sdl_ttf.h"
+          },
+          "hashes": {
+            "md5": "f00df3a37f8ac2352ffcea23a7f5f26e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/soinua.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "017ddf887489c4196a9a95f88f427cb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/asier/downloads/editados samples/sdlexamplesvcws/simplesdlwrapper/imagen.c"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "062a06a951112fb534476592c67faec3"
+          }
+        }
+      ]
+    }
+  ]
+}
